@@ -1,9 +1,8 @@
 cask "issie" do
-  arch arm: "arm64", intel: "x86_64"
+  arch arm: "arm64"
 
-  version "4.1.3"
-  sha256 arm:   "e55f3cd9190711d26425319444d2eb33f286ed1435b0aad03644ae160196f3d9",
-         intel: "c8edef9e1b036a82388e2893fcb38eeb7abc8b7bbdb5edb1233b9c1595dae1b7"
+  version "5.3.1"
+  sha256 arm: "b92c7745e15e2e1d8a56e3bdf6050355910df60114ac2db96663aa6649b30a7c"
 
   url "https://github.com/tomcl/issie/releases/download/v#{version}/issie-#{version}-#{arch}.dmg",
       verified: "github.com/tomcl/issie/"
